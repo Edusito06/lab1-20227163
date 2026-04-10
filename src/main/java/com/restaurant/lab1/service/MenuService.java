@@ -30,19 +30,3 @@ public class MenuService {
         return menu.stream().filter(d -> d.getId().equals(id)).findFirst();
     }
 }
-
-//2. Inicializa git y sube la rama master (solo el proyecto base)
-//
-//
-//cd "C:\Users\eduro\Desktop\lab1-20227163-edu"
-//git init
-//git add .
-//git commit -m "init: crear proyecto Spring Boot"
-//git branch -M master
-//git remote add origin https://github.com/TU_USUARIO/lab1-20227163.git
-//git push -u origin master
-//3. Crea la rama feature/implementation y sube todo el código
-//
-//
-//git checkout -b feature/implementation
-//git push -u origin feature/implementation
